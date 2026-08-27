@@ -437,6 +437,96 @@ i {
 .delete_post{
     display: none;
 }
+.me-container{
+  width: 240px;
+  background-color: white;
+  position: absolute;
+  margin-top: 340px;
+  margin-left: -20px;
+  z-index: 1;
+  border-radius: 10px 0 10px 10px;
+  padding-top: 0.5rem;
+  box-shadow: 1px 2px 10px 1px rgb(180, 180, 180);
+  display: none;
+}
+.image_title {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.image_title img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.name-container{
+  display: flex;
+  flex-direction: column;
+}
+.name-container h5 {
+  font-size: 17px;
+}
+.me-container .view-profile-btn{
+  text-align: center;
+  margin-top: 10px;
+}
+.me-container .view-profile-btn button {
+  width: 90%;
+  border-radius: 15px;
+  outline: none;
+  border:1px solid lightskyblue ;
+  font-size: 18px;
+  color: rgb(110, 110, 253);
+  font-weight: 500;
+  cursor: pointer;
+}
+.me-container .view-profile-btn button:hover{
+  background-color: rgb(223, 244, 250);
+}
+.inner-box{
+  border-bottom: 1px solid lightgray;
+  padding: .7rem;
+}
+.account {
+  border-bottom:1px solid lightgray;
+}
+.account h6{
+  font-size: 15px;
+}
+.account-links {
+  font-size: 13px;
+  color: rgb(148, 148, 148);
+  line-height: 1.8;
+}
+.account-links:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.manage-container{
+  margin-top: 10px;
+  border-bottom:1px solid lightgray;
+}
+.manage-container h6 {
+  font-size: 15px;
+}
+.manage-links{
+  font-size: 13px;
+  color: rgb(148, 148, 148);
+  line-height: 1.8;
+}
+.manage-links:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.sign-out:hover{
+   text-decoration: underline;
+   cursor: pointer;
+}
+.hidden{
+  display: block;
+}
+
+
 
 
 
@@ -452,7 +542,7 @@ i {
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   .outer-container {
     width: 100%;
   }
@@ -534,6 +624,9 @@ i {
     width: 100%;
     max-width: 1000px;
     margin: 40px auto;
+  }
+  .me-container{
+    display: none;
   }
 
 }
