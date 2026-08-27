@@ -434,7 +434,9 @@ i {
   margin-left: 10px;
   cursor: pointer;
 }
-
+.delete_post{
+    display: none;
+}
 
 
 
