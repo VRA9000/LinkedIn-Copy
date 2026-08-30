@@ -318,6 +318,7 @@ i {
   align-self: center;
   align-content: center;
   margin-top: -60px;
+  object-fit: cover;
 }
 
 .right_box .inner_container .item {
