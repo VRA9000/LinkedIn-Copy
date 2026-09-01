@@ -528,21 +528,84 @@ i {
   display: block;
 }
 .middle_col{
-  width: 630px;
+  width: 750px;
+  position: relative;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 .profile-box .profile-box {
-   max-width:630px ;
+  width: 100%;
+   max-width:750px ;
    border-radius: 15px;
+   display: flex;
+   flex-direction: column;
 }
 .profile-box .bg-image img {
   width: 100%;
-  max-width: 630px;
+  max-width: 850px;
   height: 200px;
   object-fit: cover;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
 
 }
+figure img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid white;
+  left: 70px;
+  position: absolute;
+  top: 120px;
+  
+}
+
+.profile-page{
+  background-color: white;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+}
+.profile-box .job_title{
+  margin: 16% 0 0 70px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.profile-box .job_title .country{
+  display: flex;
+  gap: 1rem;
+}
+.profile-box .job_title .country span {
+  color: rgb(172, 75, 172);
+  font-weight: 600;
+  cursor: pointer;
+}
+.profile-box .job_title .country span:hover{
+  text-decoration: underline;
+}
+
+.profile-box .job_title .connections {
+  color: rgb(41, 114, 224);
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
