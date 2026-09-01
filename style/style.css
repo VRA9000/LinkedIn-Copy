@@ -727,9 +727,13 @@ figure img {
   margin-top: 60px;
   text-align: left;
 }
-.connections h3 {
-  text-align: left;
+.profile-language h2{
+  font-weight: 500;
 }
+.public-profile h2{
+  font-weight: 500;
+}
+
 
 
 
