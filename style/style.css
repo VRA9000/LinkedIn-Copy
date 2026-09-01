@@ -471,17 +471,18 @@ i {
   text-align: center;
   margin-top: 10px;
 }
-.me-container .view-profile-btn button {
+.me-container .view-profile-btn .button {
   width: 90%;
-  border-radius: 15px;
+  border-radius: 20px;
   outline: none;
-  border:1px solid lightskyblue ;
+  border:1px solid lightskyblue;
   font-size: 18px;
   color: rgb(110, 110, 253);
   font-weight: 500;
   cursor: pointer;
+  padding: 5px 10px;
 }
-.me-container .view-profile-btn button:hover{
+.me-container .view-profile-btn .button:hover{
   background-color: rgb(223, 244, 250);
 }
 .inner-box{
