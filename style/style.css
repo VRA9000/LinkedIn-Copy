@@ -527,8 +527,22 @@ i {
 .hidden{
   display: block;
 }
+.middle_col{
+  width: 630px;
+}
+.profile-box .profile-box {
+   max-width:630px ;
+   border-radius: 15px;
+}
+.profile-box .bg-image img {
+  width: 100%;
+  max-width: 630px;
+  height: 200px;
+  object-fit: cover;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 
-
+}
 
 
 
