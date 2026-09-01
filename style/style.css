@@ -528,21 +528,21 @@ i {
   display: block;
 }
 .middle_col{
-  width: 750px;
+  width: 900px;
   position: relative;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
 .profile-box .profile-box {
   width: 100%;
-   max-width:750px ;
+   max-width:900px ;
    border-radius: 15px;
    display: flex;
    flex-direction: column;
 }
 .profile-box .bg-image img {
   width: 100%;
-  max-width: 850px;
+  max-width: 900px;
   height: 200px;
   object-fit: cover;
   border-top-right-radius: 15px;
@@ -747,6 +747,9 @@ figure img {
   }
   .me-container{
     display: none;
+  }
+  .me-icon {
+    display: flex;
   }
 }
 
