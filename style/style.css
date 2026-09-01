@@ -567,7 +567,7 @@ figure img {
   flex-direction: column;
 }
 .profile-box .job_title{
-  margin: 16% 0 0 70px;
+  margin: 16% 0 0 20px;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -591,7 +591,28 @@ figure img {
   font-weight: 600;
   margin-top: 10px;
 }
+.profile-box .open-to{
+  display: flex;
+  margin-left: 20px;
+  gap: 1rem;
+  margin-top: 25px;
+}
+.profile-box .open-to a {
+     text-decoration: none;
+     color:rgb(41, 114, 224);
+     font-weight: 600;
+     border: 1px solid rgb(41, 114, 224);
+     padding: 5px 10px;
+     border-radius: 20px;
+}
 
+.profile-box .open-to .active-btn {
+   color: white;
+   background-color:rgb(41, 114, 224);
+}
+.profile-box .open-to .profile-icon{
+  text-align: center;
+}
 
 
 
