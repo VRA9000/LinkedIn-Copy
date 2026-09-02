@@ -604,9 +604,11 @@ figure img {
 
 .profile-page {
   background-color: white;
-  height: 650px;
+  height: 550px;
   display: flex;
   flex-direction: column;
+  border-bottom-left-radius: 15px ;
+  border-bottom-right-radius: 15px ;
 }
 
 .profile-box .job_title {
@@ -733,7 +735,28 @@ figure img {
 .public-profile h2{
   font-weight: 500;
 }
-
+footer {
+  display: flex;
+  gap: 3rem;
+  margin: auto;
+  justify-content: space-evenly
+ 
+}
+footer div ul {
+  line-height: 2.6;
+}
+footer div ul li {
+  list-style-position: inside;
+  list-style-type: none;
+}
+footer div ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(87, 87, 87);
+}
+footer div ul li a:hover{
+  opacity: 80%;
+}
 
 
 
