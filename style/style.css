@@ -739,7 +739,7 @@ footer {
   display: flex;
   gap: 3rem;
   margin: auto;
-  justify-content: space-evenly
+  justify-content: space-evenly;
  
 }
 footer div ul {
