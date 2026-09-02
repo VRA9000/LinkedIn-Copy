@@ -875,6 +875,12 @@ footer div ul li a:hover{
    .profile-wrap{
     padding: 0;
    }
+   footer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+   }
 }
 
 
