@@ -77,7 +77,8 @@ input[type='search'] {
 }
 
 .nav-links .active {
-  color: black;
+  color: black; 
+  border-bottom: 2px solid black;
 }
 
 .nav-links a {
@@ -525,7 +526,13 @@ i {
 .account h6 {
   font-size: 15px;
 }
-
+.pencil-profile-page{
+  position: absolute;
+  right: 1rem;
+  padding: 10px 0 0 0 ;
+  cursor: pointer;
+  font-size: 20px;
+}
 .account-links {
   font-size: 13px;
   color: rgb(148, 148, 148);
