@@ -181,9 +181,7 @@ input[type='search'] {
   border-radius: 10px;
   justify-content: center;
   align-items: center;
-  display: flex;
   gap: 1rem;
-  flex-direction: column;
 }
 
 .middle_col .start_post .search_img::placeholder {
@@ -578,6 +576,8 @@ i {
   position: relative;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .profile-box .profile-box {
@@ -613,8 +613,6 @@ figure img {
   background-color: white;
   height: fit-content;
   padding:  0 0 2rem 0;
-  display: flex;
-  flex-direction: column;
   border-bottom-left-radius: 15px ;
   border-bottom-right-radius: 15px ;
 }
