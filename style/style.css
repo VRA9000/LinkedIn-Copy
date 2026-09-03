@@ -741,6 +741,7 @@ footer {
   gap: 3rem;
   margin: auto;
   justify-content: space-evenly;
+  padding-bottom: 2rem;
  
 }
 footer div ul {
