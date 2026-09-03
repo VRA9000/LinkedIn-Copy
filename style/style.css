@@ -604,7 +604,8 @@ figure img {
 
 .profile-page {
   background-color: white;
-  height: 550px;
+  height: fit-content;
+  padding:  0 0 2rem 0;
   display: flex;
   flex-direction: column;
   border-bottom-left-radius: 15px ;
@@ -743,7 +744,7 @@ footer {
  
 }
 footer div ul {
-  line-height: 2.6;
+  line-height: 2.2;
 }
 footer div ul li {
   list-style-position: inside;
@@ -758,7 +759,7 @@ footer div ul li a:hover{
   opacity: 80%;
 }
 .settings{
-  line-height: 1.4;
+  line-height: 1.6;
   text-align: center;
 }
 .settings .question div{
@@ -792,9 +793,21 @@ footer div ul li a:hover{
      font-size: 13px;
      margin-left: 25px;
 }
-
-
-
+select {
+  width: 200px;
+  font-size: 15px;
+  background-color: rgb(236, 236, 236);
+  padding: 5px;
+  color: black;
+}
+.language-select{
+  color: rgb(85, 85, 85);
+  font-size: 13px;
+  color: black;
+}
+/* .languages{
+  text-align: left;
+} */
 
 
 
@@ -914,6 +927,9 @@ footer div ul li a:hover{
     margin: auto;
     text-align: center;
    }
+   .settings {
+  text-align: center;
+}
 }
 
 
