@@ -77,7 +77,7 @@ input[type='search'] {
 }
 
 .nav-links .active {
-  color: black; 
+  color: black;
   border-bottom: 2px solid black;
 }
 
@@ -526,13 +526,15 @@ i {
 .account h6 {
   font-size: 15px;
 }
-.pencil-profile-page{
+
+.pencil-profile-page {
   position: absolute;
   right: 1rem;
-  padding: 10px 0 0 0 ;
+  padding: 10px 0 0 0;
   cursor: pointer;
   font-size: 20px;
 }
+
 .account-links {
   font-size: 13px;
   color: rgb(148, 148, 148);
@@ -614,9 +616,9 @@ figure img {
 .profile-page {
   background-color: white;
   height: fit-content;
-  padding:  0 0 2rem 0;
-  border-bottom-left-radius: 15px ;
-  border-bottom-right-radius: 15px ;
+  padding: 0 0 2rem 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .profile-box .job_title {
@@ -706,74 +708,91 @@ figure img {
   margin-left: 5px;
   font-weight: 600;
 }
+
 .right_col .right_box {
   padding: 2rem;
   text-align-last: left;
 }
+
 .right_col .right_box hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   color: lightgray;
 }
+
 .right_col .right_box p {
   color: grey;
   margin-top: 4px;
   font-size: 14px;
   text-align: left;
-  
+
 }
-.right_col .right_box .profile-language{
+
+.right_col .right_box .profile-language {
   display: flex;
   justify-content: space-between;
 }
-.right_col .right_box .public-profile{
+
+.right_col .right_box .public-profile {
   display: flex;
   justify-content: space-between;
 }
-.profile-wrap{
+
+.profile-wrap {
   padding: 1.5rem;
 }
-.connections{
+
+.connections {
   margin-top: 60px;
   text-align: left;
 }
-.profile-language h2{
+
+.profile-language h2 {
   font-weight: 500;
 }
-.public-profile h2{
+
+.public-profile h2 {
   font-weight: 500;
 }
+
 footer {
   display: flex;
   gap: 3rem;
   margin: auto;
   justify-content: space-evenly;
   padding-bottom: 2rem;
- 
+
 }
+
 footer div ul {
   line-height: 2.2;
 }
+
 footer div ul li {
   list-style-position: inside;
   list-style-type: none;
 }
+
 footer div ul li a {
   text-decoration: none;
   font-size: 13px;
   color: rgb(87, 87, 87);
 }
-footer div ul li a:hover{
+
+footer div ul li a:hover {
   opacity: 80%;
 }
-.settings{
+
+.settings {
   line-height: 1.6;
   text-align: center;
 }
-.settings .question div{
+
+.settings .question div {
   font-size: 13px;
   margin-left: 60px;
 }
+
 .settings .question .fa-question {
   background-color: gray;
   border-radius: 50%;
@@ -782,25 +801,29 @@ footer div ul li a:hover{
   height: 20px;
   text-align: center;
   align-items: center;
-  color:rgb(236, 236, 236);
-  
+  color: rgb(236, 236, 236);
+
 }
+
 .settings {
   text-align: left;
 }
+
 .settings .question div {
-    font-size: 13px;
-     margin-left: 30px;
-} 
+  font-size: 13px;
+  margin-left: 30px;
+}
+
 .settings .gear div {
-   font-size: 13px;
-   margin-left: 25px;
+  font-size: 13px;
+  margin-left: 25px;
 }
 
 .settings .shield div {
-     font-size: 13px;
-     margin-left: 25px;
+  font-size: 13px;
+  margin-left: 25px;
 }
+
 select {
   width: 200px;
   font-size: 15px;
@@ -808,16 +831,18 @@ select {
   padding: 5px;
   color: black;
 }
-.language-select{
+
+.language-select {
   color: rgb(85, 85, 85);
   font-size: 13px;
   color: black;
 }
+
 /* .languages{
   text-align: left;
 } */
-.suggested{
-  width:630px ;
+.suggested {
+  width: 630px;
   height: fit-content;
 }
 
@@ -931,18 +956,20 @@ select {
   /* a .me-icon img {
     display: none;
   } */
-   .profile-wrap{
+  .profile-wrap {
     padding: 0;
-   }
-   footer{
+  }
+
+  footer {
     display: flex;
     flex-direction: column;
     margin: auto;
     text-align: center;
-   }
-   .settings {
-  text-align: center;
-}
+  }
+
+  .settings {
+    text-align: center;
+  }
 }
 
 
